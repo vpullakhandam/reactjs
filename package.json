@@ -1,0 +1,22 @@
+{
+  "name": "reactjs",
+  "version": "1.0.0",
+  "description": "this is a package for creating a reactjs app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vpullakhandam/reactjs.git"
+  },
+  "author": "vaishnavi pullakhandam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vpullakhandam/reactjs/issues"
+  },
+  "homepage": "https://github.com/vpullakhandam/reactjs#readme",
+  "devDependencies": {
+    "parcel": "^2.10.3"
+  }
+}
