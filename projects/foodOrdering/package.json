@@ -1,0 +1,26 @@
+{
+  "name": "foodordering",
+  "version": "1.0.0",
+  "description": "this is a food ordering app",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vpullakhandam/reactjs.git#main"
+  },
+  "author": "vaishnavi pullakhandam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vpullakhandam/reactjs/issues"
+  },
+  "homepage": "https://github.com/vpullakhandam/reactjs/tree/main#readme",
+  "devDependencies": {
+    "parcel": "^2.10.3"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "reactdom": "^2.0.0"
+  }
+}
