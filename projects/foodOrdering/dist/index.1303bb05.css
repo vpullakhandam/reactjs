@@ -21,4 +21,23 @@
   padding: 10px;
 }
 
+.search {
+  padding: 10px;
+}
+
+.resCard {
+  width: 200px;
+  height: 350px;
+  padding: 5px;
+}
+
+.resCard:hover {
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+.food-image {
+  width: 100%;
+}
+
 /*# sourceMappingURL=index.1303bb05.css.map */

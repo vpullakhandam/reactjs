@@ -6,7 +6,7 @@
 }
 .logo {
   width: 100px;
-  padding-top:10px;
+  padding-top: 10px;
   padding-left: 10px;
 }
 .nav-items > ul {
@@ -20,5 +20,21 @@
   margin: 10px;
 }
 
-
 /* BODY */
+
+.search {
+  padding: 10px;
+}
+.resCard {
+  width: 200px;
+  height: 350px;
+  padding: 5px;
+}
+.resCard:hover {
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.food-image {
+  width: 100%;
+}
