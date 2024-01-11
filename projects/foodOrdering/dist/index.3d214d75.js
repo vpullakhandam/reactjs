@@ -3018,52 +3018,38 @@ const Header = ()=>{
     }, undefined);
 };
 _c = Header;
-const ResCard = ()=>{
+const ResCard = ({ resName, cuisine })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "resCard",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                 alt: "res-food-logo",
                 className: "food-image",
-                src: "https://i.pinimg.com/originals/82/c6/5b/82c65b9bb0a75026fc4c82a438b4cc9b.jpg"
-            }, void 0, false, {
-                fileName: "index.js",
-                lineNumber: 28,
-                columnNumber: 13
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                children: "HOTEL"
-            }, void 0, false, {
-                fileName: "index.js",
-                lineNumber: 29,
-                columnNumber: 13
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
-                children: "Biryani, North Indian, Asian"
+                src: "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/2b4f62d606d1b2bfba9ba9e5386fabb7"
             }, void 0, false, {
                 fileName: "index.js",
                 lineNumber: 30,
-                columnNumber: 13
+                columnNumber: 7
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
-                children: "4.4 stars"
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                children: resName
             }, void 0, false, {
                 fileName: "index.js",
-                lineNumber: 31,
-                columnNumber: 13
+                lineNumber: 35,
+                columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
-                children: "38 minutes"
+                children: cuisine
             }, void 0, false, {
                 fileName: "index.js",
-                lineNumber: 32,
-                columnNumber: 13
+                lineNumber: 36,
+                columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "index.js",
-        lineNumber: 27,
-        columnNumber: 9
+        lineNumber: 29,
+        columnNumber: 5
     }, undefined);
 };
 _c1 = ResCard;
@@ -3076,26 +3062,47 @@ const Body = ()=>{
                 children: "Search"
             }, void 0, false, {
                 fileName: "index.js",
-                lineNumber: 40,
-                columnNumber: 13
+                lineNumber: 44,
+                columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "restaurantContainer",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ResCard, {}, void 0, false, {
-                    fileName: "index.js",
-                    lineNumber: 44,
-                    columnNumber: 17
-                }, undefined)
-            }, void 0, false, {
+                className: "resContainer",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ResCard, {
+                        resName: "HOTEL1",
+                        cuisine: "American, Indian, Biryani"
+                    }, void 0, false, {
+                        fileName: "index.js",
+                        lineNumber: 46,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ResCard, {
+                        resName: "HOTEL2",
+                        cuisine: "American, Indian"
+                    }, void 0, false, {
+                        fileName: "index.js",
+                        lineNumber: 47,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ResCard, {
+                        resName: "HOTEL3",
+                        cuisine: "American, Indian"
+                    }, void 0, false, {
+                        fileName: "index.js",
+                        lineNumber: 48,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
                 fileName: "index.js",
-                lineNumber: 43,
-                columnNumber: 13
+                lineNumber: 45,
+                columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "index.js",
-        lineNumber: 39,
-        columnNumber: 9
+        lineNumber: 43,
+        columnNumber: 5
     }, undefined);
 };
 _c2 = Body;
@@ -3105,18 +3112,18 @@ const AppLayout = ()=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Header, {}, void 0, false, {
                 fileName: "index.js",
-                lineNumber: 54,
+                lineNumber: 57,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Body, {}, void 0, false, {
                 fileName: "index.js",
-                lineNumber: 55,
+                lineNumber: 58,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "index.js",
-        lineNumber: 53,
+        lineNumber: 56,
         columnNumber: 5
     }, undefined);
 };
@@ -3124,7 +3131,7 @@ _c3 = AppLayout;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(AppLayout, {}, void 0, false, {
     fileName: "index.js",
-    lineNumber: 61,
+    lineNumber: 64,
     columnNumber: 13
 }, undefined));
 var _c, _c1, _c2, _c3;

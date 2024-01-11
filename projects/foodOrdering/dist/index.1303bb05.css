@@ -28,6 +28,7 @@
 .resCard {
   width: 200px;
   height: 350px;
+  margin: 50px;
   padding: 5px;
 }
 
@@ -38,6 +39,12 @@
 
 .food-image {
   width: 100%;
+}
+
+.resContainer {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  display: flex;
 }
 
 /*# sourceMappingURL=index.1303bb05.css.map */

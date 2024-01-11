@@ -22,37 +22,40 @@ const Header = () => {
   );
 };
 
-const ResCard=()=>{
-    return (
-        <div className="resCard">
-            <img alt="res-food-logo" className="food-image" src="https://i.pinimg.com/originals/82/c6/5b/82c65b9bb0a75026fc4c82a438b4cc9b.jpg"/>
-            <h3>HOTEL</h3>
-            <h4>Biryani, North Indian, Asian</h4>
-            <h4>4.4 stars</h4>
-            <h4>38 minutes</h4>
-        </div>
-    );
-}
 
-const Body=()=>{
-    return (
-        <div className="body">
-            <div className="search">
-                Search
-            </div>
-            <div className="restaurantContainer">
-                <ResCard/>
-            </div>
-        </div>
-    );
+
+const ResCard = ({ resName, cuisine }) => {
+  return (
+    <div className="resCard">
+      <img
+        alt="res-food-logo"
+        className="food-image"
+        src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/2b4f62d606d1b2bfba9ba9e5386fabb7"
+      />
+      <h3>{resName}</h3>
+      <h4>{cuisine}</h4>
+    </div>
+  );
 };
 
+const Body = () => {
+  return (
+    <div className="body">
+      <div className="search">Search</div>
+      <div className="resContainer">
+        <ResCard resName="HOTEL1" cuisine="American, Indian, Biryani" />
+        <ResCard resName="HOTEL2" cuisine="American, Indian" />
+        <ResCard resName="HOTEL3" cuisine="American, Indian" />
+      </div>
+    </div>
+  );
+};
 
 const AppLayout = () => {
   return (
     <div className="app">
       <Header />
-      <Body/>
+      <Body />
     </div>
   );
 };
